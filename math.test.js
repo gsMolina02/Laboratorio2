@@ -23,7 +23,7 @@ describe('fibonacci', () => {
         expect(fibonacci(1)).toBe(1);
     });
     test('fibonacci de 6 debe ser 8', () => {
-        expect(fibonacci(6)).toBe(8);
+        expect(fibonacci(6)).toBe(7); //Valor incorrecto
     });
     test('fibonacci de número negativo lanza error', () => {
         expect(() => fibonacci(-3)).toThrow(TypeError);
